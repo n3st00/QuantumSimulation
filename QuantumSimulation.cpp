@@ -37,7 +37,7 @@ int main()
 		glfwTerminate();
 		return -1;
 	}
-	glfwMakeContextCurrent(window);
+	glfwMakeContextCurrent(window); // 
 
 	// initialize glad
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
